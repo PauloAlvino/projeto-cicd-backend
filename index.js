@@ -9,7 +9,7 @@ app.use(cors({ origin: 'https://projeto-cicd-frontend.vercel.app' }));
 
 app.get('/', (req, res) => {
   res.json({
-    mensagem: "API FUNCIONANDO COM SUCESSO! 🚀",
+    mensagem: "API FUNCIONANDO COM SUCESSO!",
     versao_atual: version
   });
 });
