@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 const { version } = require('./package.json');
 
-app.use(cors({ origin: 'https://projeto-cicd-front.vercel.app' }));
+app.use(cors({ origin: 'https://projeto-cicd-frontend.vercel.app' }));
 
 app.get('/', (req, res) => {
   res.json({
