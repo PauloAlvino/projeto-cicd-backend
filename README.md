@@ -35,4 +35,4 @@ O deploy acontece somente quando uma nova Tag Semântica é criada.
 - **API (Backend):** https://seu-projeto-back.onrender.com  
 - **Dashboard (Frontend):** https://seu-projeto-front.vercel.app
 
-Desenvolvido pela equipe: Thiago Cunha, Paulo Ricardo, Vinicius de Araujo.
+Desenvolvido pela equipe: Thiago Cunha, Paulo Ricardo, Vinicius de Araujo Silva.
