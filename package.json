@@ -1,6 +1,6 @@
 {
   "name": "projeto-cicd-backend",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Este repositório contém a API desenvolvida para a atividade bimestral de Integração e Entrega Contínua (CI/CD).",
   "main": "index.js",
   "scripts": {
