@@ -3,7 +3,7 @@ name: Deploy Automático Render
 on:
   push:
     tags:
-      - "v*.*.*" # executa apenas quando uma nova versão semântica for criada
+      - "v*.*.*"
 
 jobs:
   deploy:
@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Checkout do código
         uses: actions/checkout@v4
-        
+
       - name: Deploy no Render
         env:
           RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
