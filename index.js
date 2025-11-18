@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const { version } = require('./package.json'); 
 
-app.use(cors({ origin: 'https://projeto-front.vercel.app' }));
+app.use(cors({ origin: 'https://projeto-cicd-front.vercel.app' }));
 
 app.get('/', (req, res) => {
   const uptime = process.uptime();
